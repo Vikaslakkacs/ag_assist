@@ -11,7 +11,7 @@ def get_agent_executor():
     from langchain_text_splitters import RecursiveCharacterTextSplitter
     from langchain.tools.retriever import create_retriever_tool
     
-    loader= PyPDFLoader('/Users/vikaslakka/Desktop/FSDS/GenAI/poc/scrum_master/ag_assist/dataset/rm_story.pdf')
+    loader= PyPDFLoader('./dataset/rm_story.pdf')
     pages= loader.load_and_split()
     ##Create Vector DB with FAISS
     ## Split documents into chunks
