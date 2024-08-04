@@ -33,13 +33,7 @@ def get_agent_executor():
     
     ## Create Agent
     from langchain_openai import ChatOpenAI
-    #llm= ChatOpenAI(model="gpt-3.5-turbo", temperature=0.6)
-    ## Create with Azure OpenAI
-    from langchain_openai import AzureChatOpenAI
-    llm= AzureChatOpenAI(
-        openai_api_version= os.environ["OPENAI_API_VERSION"],
-        azure_deployment= "gpt4-turbo"
-    )
+    llm= ChatOpenAI(model="gpt-3.5-turbo", temperature=0.6)
     ##Create prompt  for llm agent
     from langchain.prompts import ChatPromptTemplate
     from langchain_core.prompts import MessagesPlaceholder
@@ -61,16 +55,6 @@ def get_agent_executor():
     from langchain.agents import AgentExecutor
     agent_executor= AgentExecutor(agent=agent, tools= tools, verbose=False)
     return agent_executor
-def langfuse_callback():
-    from langfuse.callback import CallbackHandler
-    langfuse_callback= CallbackHandler(
-        secret_key= "sk-lf-42d3ea7e-f51e-488e-aca8-53a38033ef07",
-        public_key="pk-lf-1a0b44ca-63ff-4a49-9815-66c60f62a56d",
-        host= "http://53.137.138.81:34000 "
-    )
-    return langfuse_callback
-if "langfuse_callback" not in st.session_state:
-    st.session_state.langfuse_callback= langfuse_callback()
 load_dotenv()
 ###Create agent executor
 if "agent_executor" not in st.session_state:
@@ -105,8 +89,7 @@ with st.sidebar:
                     ##Execute evaluate chain
                     with get_openai_callback() as cb:
                         ## Call agent executor
-                        response= st.session_state.agent_executor.invoke({"input": question},
-                                                        config={"callbacks":[st.session_state.langfuse_callback]} )
+                        response= st.session_state.agent_executor.invoke({"input": question})
                 except Exception as e:
                     traceback.print_exception(type(e),e, e.__traceback__)
                     st.error("Error")      
