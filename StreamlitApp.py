@@ -11,7 +11,7 @@ def get_agent_executor():
     from langchain_text_splitters import RecursiveCharacterTextSplitter
     from langchain.tools.retriever import create_retriever_tool
     
-    loader= PyPDFLoader('./dataset/rm_story.pdf')
+    loader= PyPDFLoader('./dataset/EAD-6.doc.pdf')
     pages= loader.load_and_split()
     ##Create Vector DB with FAISS
     ## Split documents into chunks
@@ -59,7 +59,7 @@ def get_agent_executor():
     agent= create_tool_calling_agent(llm, tools, story_reader_prompt)
     ## Create Langchain executer
     from langchain.agents import AgentExecutor
-    agent_executor= AgentExecutor(agent=agent, tools= tools, verbose=False)
+    agent_executor= AgentExecutor(agent=agent, tools= tools, verbose=True)
     return agent_executor
 def langfuse_callback():
     from langfuse.callback import CallbackHandler
