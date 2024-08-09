@@ -3,6 +3,9 @@ import traceback
 from dotenv import load_dotenv
 import streamlit as st
 from langchain.callbacks import get_openai_callback
+import json
+from langchain_community.vectorstores import Chroma
+from langchain_community.document_loaders import JSONLoader
 ## Loading Pdfs
 def get_agent_executor():
     from langchain_community.document_loaders import PyPDFLoader
@@ -11,17 +14,13 @@ def get_agent_executor():
     from langchain_text_splitters import RecursiveCharacterTextSplitter
     from langchain.tools.retriever import create_retriever_tool
     
-    loader= PyPDFLoader('./dataset/EAD-6.doc.pdf')
-    pages= loader.load_and_split()
-    ##Create Vector DB with FAISS
-    ## Split documents into chunks
-    documents= RecursiveCharacterTextSplitter(
-        chunk_size=1000,
-        chunk_overlap=200
-    ).split_documents(pages)
-    ##Create Vector DB
-    vector= FAISS.from_documents(documents, OpenAIEmbeddings())
-    retriever= vector.as_retriever()
+
+    ## Embedding function
+    embeddings= OpenAIEmbeddings()
+    loader = JSONLoader(file_path="./dataset/story_details.json",jq_schema='.result[]', text_content=False)
+    documents = loader.load()
+    db= Chroma.from_documents(documents=documents, embedding=embeddings)
+    retriever= db.as_retriever()
     ###Create retriever tool
     retriever_tool= create_retriever_tool(
         retriever,
@@ -105,8 +104,9 @@ with st.sidebar:
                     ##Execute evaluate chain
                     with get_openai_callback() as cb:
                         ## Call agent executor
-                        response= st.session_state.agent_executor.invoke({"input": question},
-                                                        config={"callbacks":[st.session_state.langfuse_callback]} )
+                        response= st.session_state.agent_executor.invoke({"input": question} )
+                        #response= st.session_state.agent_executor.invoke({"input": question},
+                                                        #config={"callbacks":[st.session_state.langfuse_callback]} )
                 except Exception as e:
                     traceback.print_exception(type(e),e, e.__traceback__)
                     st.error("Error")      
