@@ -24,4 +24,4 @@ langchain_community
 langchain
 jq
 protobuf==3.20.*
-sqlite3 >= 3.35.0
+db-sqlite3
