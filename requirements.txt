@@ -19,3 +19,7 @@ psycopg2-binary
 langfuse
 langgraph
 pypdf
+chromadb
+langchain_community
+langchain
+jq
