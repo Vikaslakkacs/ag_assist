@@ -1,0 +1,412 @@
+{
+    "result": [
+      {
+        "end_date": "2021-10-08 11:23:51",
+        "short_description": "HR Service Portal - Homepage Design- Upcoming Events",
+        "work_start": "2021-10-08 13:04:40",
+        "release": {
+          "display_value": "HR ServiceNow Implementation Release 1",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_release_scrum/e6c43936db50001025c85a35dc96194e"
+        },
+        "sprint": {
+          "display_value": "ServiceNow Implementation R1 3",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_sprint/45303d3adb54401025c85a35dc961978"
+        },
+        "project": "",
+        "enhancement": "",
+        "work_effort": "",
+        "number": "STRY0010013",
+        "blocked": "false",
+        "sys_created_on": "2019-10-08 11:23:51",
+        "end": "",
+        "state": "Complete",
+        "schedule_end_date": "2021-10-08 11:23:51",
+        "sys_created_by": "admin",
+        "assigned_to": "",
+        "start_date": "2021-10-08 11:23:51",
+        "product": {
+          "display_value": "",
+          "link": "https://dev258126.service-now.com/api/now/table/cmdb_model/e8abe136db54401025c85a35dc9619cb"
+        },
+        "story_points": "3",
+        "due_date": "",
+        "active": "false",
+        "epic": {
+          "display_value": "HR Portal",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_epic/08117dbedb144010f777526adc961990"
+        },
+        "remaining_duration": "",
+        "priority": "4 - Low",
+        "expected_start": "",
+        "milestone": "false",
+        "escalation": "Normal",
+        "status": "Green"
+      },
+      {
+        "end_date": "2021-10-09 02:22:31",
+        "short_description": "General Compensation Inquiry",
+        "work_start": "2021-10-09 02:28:58",
+        "release": {
+          "display_value": "HR Case Management Release 1",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_release_scrum/d7a39ccbdb180010f777526adc96190a"
+        },
+        "sprint": {
+          "display_value": "HRDev Sprint 18",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_sprint/3e0a91badbd04010f777526adc961979"
+        },
+        "project": {
+          "display_value": "",
+          "link": "https://dev258126.service-now.com/api/now/table/pm_project/9e98428cdb98001025c85a35dc961941"
+        },
+        "enhancement": "",
+        "work_effort": "",
+        "number": "STRY0010129",
+        "blocked": "false",
+        "sys_created_on": "2019-10-09 02:23:10",
+        "end": "",
+        "state": "Complete",
+        "schedule_end_date": "2021-10-09 02:22:31",
+        "sys_created_by": "admin",
+        "assigned_to": {
+          "display_value": "Natasha Ingram",
+          "link": "https://dev258126.service-now.com/api/now/table/sys_user/46c5bf6ca9fe1981010713e3ac7d3384"
+        },
+        "start_date": "2021-10-09 02:22:31",
+        "product": "",
+        "story_points": "8",
+        "due_date": "",
+        "active": "false",
+        "epic": "",
+        "remaining_duration": "",
+        "priority": "4 - Low",
+        "expected_start": "",
+        "milestone": "false",
+        "escalation": "Normal",
+        "status": "Green"
+      },
+      {
+        "end_date": "2021-10-08 11:23:59",
+        "short_description": "Update Inbound Action for Benefits@avnet.com",
+        "work_start": "2021-10-08 13:41:44",
+        "release": {
+          "display_value": "HR ServiceNow Implementation Release 2",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_release_scrum/21e4b576db50001025c85a35dc9619d1"
+        },
+        "sprint": {
+          "display_value": "ServiceNow Implementation R2  1",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_sprint/e554b5b2db544010f777526adc96190a"
+        },
+        "project": "",
+        "enhancement": "",
+        "work_effort": "",
+        "number": "STRY0010058",
+        "blocked": "false",
+        "sys_created_on": "2019-10-08 11:23:59",
+        "end": "",
+        "state": "Complete",
+        "schedule_end_date": "2021-10-08 11:23:59",
+        "sys_created_by": "admin",
+        "assigned_to": "",
+        "start_date": "2021-10-08 11:23:59",
+        "product": {
+          "display_value": "",
+          "link": "https://dev258126.service-now.com/api/now/table/cmdb_model/e8abe136db54401025c85a35dc9619cb"
+        },
+        "story_points": "1",
+        "due_date": "",
+        "active": "false",
+        "epic": "",
+        "remaining_duration": "",
+        "priority": "4 - Low",
+        "expected_start": "",
+        "milestone": "false",
+        "escalation": "Normal",
+        "status": "Green"
+      },
+      {
+        "end_date": "2021-10-08 11:24:07",
+        "short_description": "Update HR Satisfaction Survey trigger conditions",
+        "work_start": "2021-10-08 12:12:12",
+        "release": {
+          "display_value": "HR ServiceNow Implementation Release 1",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_release_scrum/e6c43936db50001025c85a35dc96194e"
+        },
+        "sprint": {
+          "display_value": "ServiceNow Implementation R1 1",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_sprint/7c30393adb54401025c85a35dc961979"
+        },
+        "project": "",
+        "enhancement": "",
+        "work_effort": "",
+        "number": "STRY0010103",
+        "blocked": "false",
+        "sys_created_on": "2019-10-08 11:24:07",
+        "end": "",
+        "state": "Complete",
+        "schedule_end_date": "2021-10-08 11:24:07",
+        "sys_created_by": "admin",
+        "assigned_to": "",
+        "start_date": "2021-10-08 11:24:07",
+        "product": {
+          "display_value": "",
+          "link": "https://dev258126.service-now.com/api/now/table/cmdb_model/e8abe136db54401025c85a35dc9619cb"
+        },
+        "story_points": "2",
+        "due_date": "",
+        "active": "false",
+        "epic": {
+          "display_value": "HR Core Setup",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_epic/d2e0f9bedb144010f777526adc9619f2"
+        },
+        "remaining_duration": "",
+        "priority": "4 - Low",
+        "expected_start": "",
+        "milestone": "false",
+        "escalation": "Normal",
+        "status": "Green"
+      },
+      {
+        "end_date": "2021-11-05 02:10:09",
+        "short_description": "My Story 123",
+        "work_start": "2021-11-05 02:10:29",
+        "release": "",
+        "sprint": {
+          "display_value": "HRIT S2",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_sprint/9daafa4fdb54401025c85a35dc961911"
+        },
+        "project": "",
+        "enhancement": "",
+        "work_effort": "",
+        "number": "STRY0010102",
+        "blocked": "false",
+        "sys_created_on": "2019-11-05 02:10:09",
+        "end": "",
+        "state": "Complete",
+        "schedule_end_date": "2021-11-05 02:10:09",
+        "sys_created_by": "thom_sn_jira_int_admin",
+        "assigned_to": "",
+        "start_date": "2021-11-05 02:10:09",
+        "product": "",
+        "story_points": "",
+        "due_date": "",
+        "active": "false",
+        "epic": "",
+        "remaining_duration": "",
+        "priority": "4 - Low",
+        "expected_start": "",
+        "milestone": "false",
+        "escalation": "Normal",
+        "status": "Green"
+      },
+      {
+        "end_date": "2021-11-19 23:03:07",
+        "short_description": "New Hire Survey Page",
+        "work_start": "2021-11-13 23:51:16",
+        "release": {
+          "display_value": "HR Case Management Release 1",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_release_scrum/d7a39ccbdb180010f777526adc96190a"
+        },
+        "sprint": {
+          "display_value": "HRDev Sprint 17",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_sprint/ba0a1d7adbd04010f777526adc961920"
+        },
+        "project": {
+          "display_value": "",
+          "link": "https://dev258126.service-now.com/api/now/table/pm_project/ebcba9e4db14401025c85a35dc9619af"
+        },
+        "enhancement": "",
+        "work_effort": "10 Hours",
+        "number": "STRY0010122",
+        "blocked": "false",
+        "sys_created_on": "2019-10-08 23:06:50",
+        "end": "",
+        "state": "Complete",
+        "schedule_end_date": "2021-10-08 23:03:07",
+        "sys_created_by": "admin",
+        "assigned_to": "",
+        "start_date": "2021-11-13 23:03:07",
+        "product": {
+          "display_value": "",
+          "link": "https://dev258126.service-now.com/api/now/table/cmdb_model/2d3314cbdb180010f777526adc9619c1"
+        },
+        "story_points": "8",
+        "due_date": "",
+        "active": "false",
+        "epic": {
+          "display_value": "HR Survey Management",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_epic/5f13d0cbdb180010f777526adc96199a"
+        },
+        "remaining_duration": "",
+        "priority": "4 - Low",
+        "expected_start": "",
+        "milestone": "false",
+        "escalation": "Normal",
+        "status": "Green"
+      },
+      {
+        "end_date": "2021-10-08 11:23:53",
+        "short_description": "HR KM - User criteria  - Employees by Hourly",
+        "work_start": "2021-10-08 14:12:45",
+        "release": {
+          "display_value": "HR ServiceNow Implementation Release 2",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_release_scrum/21e4b576db50001025c85a35dc9619d1"
+        },
+        "sprint": {
+          "display_value": "TADpole Sprint 11",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_sprint/14337c99db384010c05b77421f9619c7"
+        },
+        "project": {
+          "display_value": "",
+          "link": "https://dev258126.service-now.com/api/now/table/pm_project/66c27ed2db9c0010f777526adc961962"
+        },
+        "enhancement": "",
+        "work_effort": "",
+        "number": "STRY0010021",
+        "blocked": "false",
+        "sys_created_on": "2019-10-08 11:23:53",
+        "end": "",
+        "state": "Complete",
+        "schedule_end_date": "2021-10-08 11:23:53",
+        "sys_created_by": "admin",
+        "assigned_to": "",
+        "start_date": "2021-10-08 11:23:53",
+        "product": {
+          "display_value": "",
+          "link": "https://dev258126.service-now.com/api/now/table/cmdb_model/e8abe136db54401025c85a35dc9619cb"
+        },
+        "story_points": "4",
+        "due_date": "",
+        "active": "false",
+        "epic": {
+          "display_value": "HR Knowledge Management",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_epic/4801f9bedb144010f777526adc9619fe"
+        },
+        "remaining_duration": "",
+        "priority": "4 - Low",
+        "expected_start": "",
+        "milestone": "false",
+        "escalation": "Normal",
+        "status": "Green"
+      },
+      {
+        "end_date": "2021-10-08 11:24:08",
+        "short_description": "HR Case SLA",
+        "work_start": "2021-10-08 13:04:33",
+        "release": {
+          "display_value": "HR ServiceNow Implementation Release 1",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_release_scrum/e6c43936db50001025c85a35dc96194e"
+        },
+        "sprint": {
+          "display_value": "ServiceNow Implementation R1 3",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_sprint/45303d3adb54401025c85a35dc961978"
+        },
+        "project": "",
+        "enhancement": "",
+        "work_effort": "",
+        "number": "STRY0010108",
+        "blocked": "false",
+        "sys_created_on": "2019-10-08 11:24:08",
+        "end": "",
+        "state": "Complete",
+        "schedule_end_date": "2021-10-08 11:24:08",
+        "sys_created_by": "admin",
+        "assigned_to": "",
+        "start_date": "2021-10-08 11:24:08",
+        "product": {
+          "display_value": "",
+          "link": "https://dev258126.service-now.com/api/now/table/cmdb_model/e8abe136db54401025c85a35dc9619cb"
+        },
+        "story_points": "4",
+        "due_date": "",
+        "active": "false",
+        "epic": {
+          "display_value": "HR Portal",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_epic/08117dbedb144010f777526adc961990"
+        },
+        "remaining_duration": "",
+        "priority": "4 - Low",
+        "expected_start": "",
+        "milestone": "false",
+        "escalation": "Normal",
+        "status": "Green"
+      },
+      {
+        "end_date": "2021-10-08 11:23:57",
+        "short_description": "Create Topic Categories/HR Services",
+        "work_start": "2021-10-08 12:32:27",
+        "release": {
+          "display_value": "HR ServiceNow Implementation Release 1",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_release_scrum/e6c43936db50001025c85a35dc96194e"
+        },
+        "sprint": {
+          "display_value": "Career AD s2",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_sprint/6a6a3a4fdb54401025c85a35dc96192c"
+        },
+        "project": "",
+        "enhancement": "",
+        "work_effort": "",
+        "number": "STRY0010048",
+        "blocked": "false",
+        "sys_created_on": "2019-10-08 11:23:57",
+        "end": "",
+        "state": "Complete",
+        "schedule_end_date": "2021-10-08 11:23:57",
+        "sys_created_by": "admin",
+        "assigned_to": "",
+        "start_date": "2021-10-08 11:23:57",
+        "product": {
+          "display_value": "",
+          "link": "https://dev258126.service-now.com/api/now/table/cmdb_model/e8abe136db54401025c85a35dc9619cb"
+        },
+        "story_points": "3",
+        "due_date": "",
+        "active": "false",
+        "epic": "",
+        "remaining_duration": "",
+        "priority": "4 - Low",
+        "expected_start": "",
+        "milestone": "false",
+        "escalation": "Normal",
+        "status": "Green"
+      },
+      {
+        "end_date": "2021-10-08 11:23:57",
+        "short_description": "Disable bulk case creation",
+        "work_start": "2021-10-08 13:04:37",
+        "release": {
+          "display_value": "HR ServiceNow Implementation Release 1",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_release_scrum/e6c43936db50001025c85a35dc96194e"
+        },
+        "sprint": {
+          "display_value": "Employee Recognition 3",
+          "link": "https://dev258126.service-now.com/api/now/table/rm_sprint/c2f867b499081810f877fa585e6c5bea"
+        },
+        "project": "",
+        "enhancement": "",
+        "work_effort": "",
+        "number": "STRY0010050",
+        "blocked": "false",
+        "sys_created_on": "2019-10-08 11:23:57",
+        "end": "",
+        "state": "Complete",
+        "schedule_end_date": "2021-10-08 11:23:57",
+        "sys_created_by": "admin",
+        "assigned_to": "",
+        "start_date": "2021-10-08 11:23:57",
+        "product": {
+          "display_value": "",
+          "link": "https://dev258126.service-now.com/api/now/table/cmdb_model/e8abe136db54401025c85a35dc9619cb"
+        },
+        "story_points": "2",
+        "due_date": "",
+        "active": "false",
+        "epic": "",
+        "remaining_duration": "",
+        "priority": "4 - Low",
+        "expected_start": "",
+        "milestone": "false",
+        "escalation": "Normal",
+        "status": "Green"
+      }
+    ]
+  }
